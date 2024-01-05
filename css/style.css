@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.container{
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-style:  solid;
+    border-width: 2px;
+    width: 21rem;
+    height: 29rem;
+    background-color:hsl(0, 0%, 100%);
+    box-shadow: 5px 5px hsl(0, 0%, 7%);
+    border-radius: 15px;
+}
+
+.box img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.text{
+    margin: 0px 20px 20px 20px;
+}
+.text p{
+    background-color:hsl(47, 88%, 63%); 
+    margin-right: 12rem;
+    margin-bottom: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.text p1{
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+
+.text h1{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.text p2{
+    font-weight: 600;
+    color: hsl(0, 0%, 50%);
+}
